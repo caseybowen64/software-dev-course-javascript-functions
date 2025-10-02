@@ -72,3 +72,47 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+
+// Task 1: Greet Multiple Users
+
+function greetUser(user) {
+   console.log(`Hello, ${user}!`);
+}
+
+greetUser("Alice");
+greetUser("Bob");
+greetUser("Charlie");
+
+//Task 2: Calculate the sum
+
+function sumCalculation(number1, number2) {
+   let sum = number1 + number2;
+   console.log(sum);
+   return sum;
+}
+
+sumCalculation(num1, num2);
+
+//Task 3: Calculate the product
+
+function productCalculation(number1, number2) {
+   let prod = number1 * number2;
+   console.log(prod);
+   return prod;
+}
+productCalculation(num1, num2);
+
+//Task 4: Print names from a list
+//note - I found a few different ways to do this including a "spreading argument" which required an input of ... before the argument to pass in an array.
+//Instead of this I called the names seperately.
+
+function printNames(name1, name2, name3) {
+   let nameList = [name1, name2, name3];
+   for (let i = 0; i < nameList.length; i++) {
+      console.log(nameList[i]);
+   }
+}
+
+printNames(names[0], names[1], names[2]);
+
