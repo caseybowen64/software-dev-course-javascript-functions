@@ -53,6 +53,19 @@ for (let i = 0; i < names.length; i++) {
     console.log(names[i]);
 }
 
+//Refactoring
+
+greetUser("Alice");
+greetUser("Bob");
+greetUser("Charlie");
+
+sumCalculation(num1, num2);
+
+productCalculation(num1, num2);
+
+printNames("Alice", "Bob", "Charlie");
+
+
 /*
 ===========================================
 🛠️ Steps for Refactoring
@@ -92,8 +105,6 @@ function sumCalculation(number1, number2) {
    return sum;
 }
 
-sumCalculation(num1, num2);
-
 //Task 3: Calculate the product
 
 function productCalculation(number1, number2) {
@@ -115,4 +126,5 @@ function printNames(name1, name2, name3) {
 }
 
 printNames(names[0], names[1], names[2]);
+
 
